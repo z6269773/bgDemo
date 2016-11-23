@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>zw</title>
+	<!-- <bgsound src="music/周杰伦自创婚礼歌曲.MP3" autostart="true" loop="2"> -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/myfocus-2.0.1.min.js"></script>
+	<script type="text/javascript" src="js/mf-pattern/mF_fancy.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/mf-pattern/mF_fancy.css">
+</head>
+<body>
+	<div class="top">
+		<div class="top_content">
+			<ul>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#">加入收藏</a></li>
+				<li><a href="#">设为首页</a></li>
+			</ul>
+		</div>
+	</div> <!-- top结束 -->
+
+	<div class="wrap">
+		<div class="logo">
+			<div class="logo_left">
+				<img src="images/logo.jpg" alt="logo">
+			</div>
+			<div class="logo_right">
+				<img src="images/tel.jpg" alt="tel">
+				联系博主：<span>18221942056</span>		
+			</div>
+		</div> <!-- log结束 -->
+
+		<div class="nav">	
+			<div class="nav_left">
+			</div>
+			<div class="nav_mid">
+				<div class="nav_mid_left">
+					<ul>
+						<li><a href="#">首页</a></li>
+						<li><a href="#">吉他世界</a>
+							<ul>
+								<li><a href="#">古典</a></li>
+								<li><a href="#">民谣</a></li>
+								<li><a href="#">电吉他</a></li>
+								<li><a href="#">乌克丽丽</a></li>
+							</ul>
+						</li>
+						<li><a href="#">音乐世界</a></li>
+						<li><a href="#">舞蹈世界</a></li>
+						<li><a href="#">滑板世界</a></li>
+						<li><a href="#">推荐电影</a></li>
+					</ul>
+				</div>
+				<div class="nav_mid_right">
+					<form action="" method="post">
+						<input type="text" class="search_text" />
+						<!--<input type="text" class="search_text" x-webkit-speech />-->
+					</form>
+				</div>
+			</div>  <!-- midgg -->
+			<div class="nav_right"></div>
+		</div> <!-- 导航结束 -->
+
+		<div class="ad" id="picBox">
+			<div class="loading"><img src="images/loading.gif" alt="加载中" /></div>
+			<div class="pic">
+				<ul>	
+					<li><img src="images/img/zw1.jpg"></li>
+					<li><img src="images/img/zw2.jpg"></li>
+					<li><img src="images/img/zw3.jpg"></li>
+					<li><img src="images/img/zw4.jpg"></li>
+					<li><img src="images/img/zw5.jpg"></li>
+					<li><img src="images/img/zw6.jpg"></li>
+					<li><img src="images/img/zw7.jpg"></li>
+				</ul>
+			</div>
+		</div> <!-- 轮播结束 -->
+		<div class="main">
+			<div class="news">
+				<div class="title">
+					<h2>新闻中心</h2><span class="title_right"><a href="news.html">more&gt;&gt;</a></span>
+				</div><!-- 标题结束 -->
+				<div class="pic_news">
+					<img src="images/news.jpg"><h2><a href="#">11.11 女神喊你来表白！</a></h2>
+					<p>时间：5月20日——5月25日<br/>获奖公布时间：5月26日<br /><a href="#">Learn More&gt;&gt;</a></p>
+				</div> <!-- 图片结束 -->
+				<div class="news_list">
+					<ul>
+						<li><span>2016-11-11</span><a href="#">【访谈 用户篇】双十一你还单身吗？</a></li>
+						<li><span>2016-11-11</span><a href="#">【访谈 用户篇】双十一你还单身吗？</a></a></li>
+						<li><span>2016-11-11</span><a href="#">【访谈 用户篇】双十一你还单身吗？</a></a></li>
+						<li><span>2016-11-11</span><a href="#">【访谈 用户篇】双十一你还单身吗？</a></a></li>
+					</ul>
+				</div><!-- 新闻列表结束 -->
+			</div><!-- new结束 -->
+			<div class="course">
+				<div class="title">
+					<h2>学习资料</h2><span class="title_right"><a href="news.html">more&gt;&gt;</a></span>
+				</div>
+				<div class="course_content">
+					<img src="images/QQ截图20140531173247.jpg" />
+					<p>时间：5月20日——5月25日<br/>获奖公布时间：5月26日<br /><a href="#">Learn More&gt;&gt;</a></p>
+				</div>
+				<div class="course_list">
+					<ul>	
+						<li><a  href="#">IT课程</a></li>
+						<li><a  href="#">吉他课程</a></li>
+						<li><a  href="#">滑板课程</a></li>
+						<li><a  href="#">舞蹈课程</a></li>
+					</ul>
+				</div>
+
+			</div><!-- couse结束 -->
+			<div class="sideber"></div><!-- sideber结束 -->
+		</div><!-- main结束 -->
+	</div> <!-- wrap结束 -->
+	<div class="bgmusic"><embed src="music/jaychou.MP3" autostart="false" loop="-1"  volume="10" />
+
+
+		<!-- js -->
+		<script>
+			myFocus.set({
+    id: 'picBox',//焦点图盒子ID
+    pattern: 'mF_fancy',//焦点图风格的名称
+    time: 3,//切换时间间隔(秒)
+    trigger: 'click',//触发切换模式:'click'(点击)/'mouseover'(悬停)
+    width:1000,
+    height:310,
+    delay: 200,//'mouseover'模式下的切换延迟(毫秒)
+    txtHeight: 'default'//标题高度设置(像素),'default'为默认CSS高度，0为隐藏
+});
+</script>
+</body>
+</html>	
